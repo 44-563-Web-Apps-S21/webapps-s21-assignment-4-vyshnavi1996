@@ -1,24 +1,45 @@
 .speech{
     color:black;
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
+    font-family: cursive;
+    font-size: 17px;
 }
 .stage-direction{
     color:black;
-    font-family: Verdana,Tahoma, sans-serif;
-    font-size: 25px;
+    font-family: cursive;
+    font-size: 17px;
+    background-color: lightgreen;
 }
 .name{
     color:black;
-    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:cursive;
+    font-size: 17px;
 }
-.hover{
-    background-color: darkblue;
-    color: darkgreen;
-} 
-.DUKE SOLINUS{
-    color:darkred;
+.stage-direction:hover{
+    background-color: rgb(248, 9, 136);
+    color: rgb(98, 161, 35);
+    ;} 
+.DUKE{
+    color:rgb(243, 13, 13);
 }
 .AEGEON{
-    color:darkslategrey;
+    color:rgb(140, 12, 231);
+}
+.REMEO{
+    color: rgba(16, 241, 16, 0.979);
+}
+table{
+    border:solid 3px;
+    border-collapse: separate;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 100px;
+    padding: 7px;
+}
+th,td{
+    border:dashed 1px rebeccapurple;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: chartreuse;
 }
