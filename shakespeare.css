@@ -27,6 +27,9 @@
 .REMEO{
     color: rgba(16, 241, 16, 0.979);
 }
+.GAOLER{
+    color:sienna;
+}
 table{
     border:solid 3px;
     border-collapse: separate;
@@ -42,4 +45,8 @@ th,td{
 }
 tr:nth-child(even){
     background-color: chartreuse;
+}
+.name:hover{
+    color:rgb(98, 161, 35);
+    border:rgb(248, 121, 10);
 }
