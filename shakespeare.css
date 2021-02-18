@@ -50,3 +50,9 @@ tr:nth-child(even){
     color:rgb(98, 161, 35);
     border:rgb(248, 121, 10);
 }
+img{
+    margin-left: 40px;
+    border-radius: 15px;
+    width: 400px;
+    height:200px;
+}
