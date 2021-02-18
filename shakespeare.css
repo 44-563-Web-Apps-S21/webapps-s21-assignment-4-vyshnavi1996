@@ -10,6 +10,7 @@
     background-color: lightgreen;
 }
 .name{
+    border-style: double;
     color:black;
     font-family:cursive;
     font-size: 17px;
@@ -40,7 +41,7 @@ table{
     padding: 7px;
 }
 th,td{
-    border:dashed 1px rebeccapurple;
+    border:solid 1px rebeccapurple;
     text-align: center;
 }
 tr:nth-child(even){
@@ -50,9 +51,12 @@ tr:nth-child(even){
     color:rgb(98, 161, 35);
     border:rgb(248, 121, 10);
 }
+.name {
+    text-shadow: 2px 2px 5px red;
+}
 img{
     margin-left: 40px;
     border-radius: 15px;
-    width: 400px;
-    height:200px;
+    width: 
+
 }
